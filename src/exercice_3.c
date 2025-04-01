@@ -58,7 +58,7 @@ int main(void) {
                     printf("Task 4 - Thread %d: Iteration %d\n", omp_get_thread_num(), j);
                 }
             }
-            // We could have automated the loop separation on 50, but this is just for demonstration.
+            // We could have automated the loop separation for X isntead of 50, but this is just for demonstration, so I kept it simple and did it manually.
             // The single construct will wait for all tasks to complete before exiting the block.
         }
     }
